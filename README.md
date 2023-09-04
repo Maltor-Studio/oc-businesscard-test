@@ -10,8 +10,3 @@ A test for creating OC business cards
 2. Click on 'index. html'
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ccb6bf24aac31d093db69a182575fbc5a0416e0e
