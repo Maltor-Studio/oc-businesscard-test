@@ -1,40 +1,56 @@
+/* HTML编辑页 */
+
 body {
-<<<<<<< Updated upstream
     background-color: #004756;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: x-small;
     color: #666666;
-=======
-  background-color: #EEEEEE;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: x-small;
-  color: #666666;
->>>>>>> Stashed changes
 }
 
 .demo {
-  margin: 3em 0;
-  padding: 7.5em 0 5.5em;
-  background: #004756;
+    margin: 3em 0;
+    padding: 7.5em 0 5.5em;
+    background: #004756;
 }
 
 .gridster {
-  width: 940px;
-  min-height: 100vh;
-  margin: 0 auto
+    width: 940px;
+    min-height: 100vh;
+    margin: 0 auto
+}
+
+.gridster .radius {
+    border-radius: 10em;
 }
 
 .gridster .gs_w {
-  background: #FFF;
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.gridster div {
-  text-align: center;
-  align-items: center;
-  margin: 1em;
+.gridster ul li div {
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.gridster div input {
+    border: none;
+    line-height: 1em;
+    align-items: center;
+    align-content: center;
+    margin: 1em;
+    border-bottom: #dddddd solid;
+}
+
+.gridster div textarea {
+    border: none;
+    line-height: 1em;
+    align-items: center;
+    align-content: center;
+    margin: 1em;
+    border-bottom: #dddddd solid;
 }
