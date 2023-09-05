@@ -27,3 +27,20 @@ OC设卡制作工具Demo
 - 0.0.230904
   - Initialized base structure
 
+
+
+## Technology Stack
+
+### Basic
+
+- HTML
+- CSS
+- jQuery
+
+
+
+### Plug-in unit
+
+- gridster: [gridster.js 中文文档](https://www.itxst.com/gridsterjs/tutorial.html)
+- html2canvas/dom-to-image
+
